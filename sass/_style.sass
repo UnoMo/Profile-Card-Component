@@ -1,0 +1,72 @@
+/* STYLE.SASS */
+
+.container
+    background-color: $darkCyan
+    height: 100%
+
+.bgImage
+
+    &.top
+        transform: translate(-40%, -45%)
+
+    &.bottom
+        right: 0
+        transform: translate(20%, 45%)
+
+.profileContainer
+    position: absolute
+    left: 47%
+    top: 50%
+    transform: translate(-50%, -50%)
+    display: flex
+
+.profileCard
+    background: #fff
+    height: 23.4375rem
+    width: 21.875rem
+    border-radius: 10px
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+
+    .profileHead
+        content: url("../images/bg-pattern-card.svg")
+        position: absolute
+        height: 35%
+        width: 100%
+        border-radius: 10px 10px 0px 0px
+
+    .profileImg
+        border-radius: 50%
+        border: 5px solid #fff
+        margin-top: 25%
+        margin-left: 35%
+
+.profileInfo
+    margin-top: 55%
+    text-align: center
+    line-height: 30px
+
+    .profileName
+        display: inline
+
+    .profileAge
+        font-weight: 400
+        display: inline
+
+.statColumns
+    display: flex
+    flex-flow: row wrap
+    justify-content: center
+    margin: 5px 0
+
+.statColumn
+    flex: 1
+    margin: 2px
+    padding: 10px
+    text-align: center
+    line-height: 30px
+
+    &:first-child
+        margin-left: 0
+
+    &:last-child
+        margin-right: 0
