@@ -132,6 +132,9 @@ hr {
     width: 16.875rem;
     border-radius: 8px;
   }
+  .profileCard .profileImg {
+    margin-left: 32%;
+  }
 
   .profileInfo {
     margin-top: 62%;
